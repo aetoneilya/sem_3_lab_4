@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe сборка активного файла",
+			"command": "C:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"UnitTest.cpp",
+				"fraction.cpp",
+				"-o",
+				"${workspaceFolder}\\build\\lab4_p1.exe",
+				"-I",
+				"${workspaceFolder}\\include",
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: C:\\MinGW\\bin\\g++.exe"
+		}
+	]
+}
